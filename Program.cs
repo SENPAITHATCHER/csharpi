@@ -71,7 +71,11 @@ namespace csharpi
             if (message.Content == ".hello")
             {
                 await message.Channel.SendMessageAsync("world!");
-            }  
+            } 
+            if (message.Content == ".pina")
+            {
+                await message.Channel.SendMessageAsync("Dikkmá!");
+            } 
         }
     }
 }
